@@ -10,3 +10,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: GabrielKoglin/codorna-card@v1
+        with:
+          # Soma o total de contribuições privadas que o GitHub mostra no perfil
+          # (precisa ligar "Private contributions" em Contribution settings).
+          private-contributions: true
+          # Modo completo: conta commits, PRs e reviews dos repositórios privados
+          # com um token só de leitura. Sem o segredo CODORNA_TOKEN, fica desligado.
+          private-token: ${{ secrets.CODORNA_TOKEN }}
