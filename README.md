@@ -10,6 +10,8 @@
 
 [![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=GabrielKoglin&show_icons=true&theme=tokyonight)](https://github.com/GabrielKoglin)
 
+![Codorna Card](codorna-card.svg)
+
 
 ---
 
